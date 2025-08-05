@@ -1,8 +1,8 @@
 {
-  "name": "TREND-X",
-  "description": "Javascript WhatsApp bot made by TRENDEX",
-  "logo": "https://files.catbox.moe/adymbp.jpg",
-  "keywords": ["TREND-X"],
+  "name": "TEDDY-XMD",
+  "description": "Javascript WhatsApp bot made by Teddy",
+  "logo": "https://files.catbox.moe/yx9w43.jpg",
+  "keywords": ["TEDDY-XMD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "TREND-X"
+      "value": "TEDDY-XMD"
     }, 
       
     "PREFIX": {
@@ -79,27 +79,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*𝚂𝙴𝙴𝙽 𝚈𝙾𝚄𝚁 𝚂𝚃𝙰𝚃𝚄𝚂 𝙱𝚈 TREND-X 💟*"
+      "value": "*𝚂𝙴𝙴𝙽 𝚈𝙾𝚄𝚁 𝚂𝚃𝙰𝚃𝚄𝚂 𝙱𝚈 TEDDY-XMD 💟*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "TRENDEX"
+      "value": "Teddy 🧸"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": ""
+      "value": "254799963583"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "TREND 𝐗"
+      "value": "TEDDY"
 
       }, 
 
@@ -132,13 +132,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/adymbp.jpg"
+      "value": "https://files.catbox.moe/yx9w43.jpg"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ TRENDEX*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚃𝙴𝙳𝙳𝚈-𝚃𝙴𝙲𝙷*"
     },
 
       "DELETE_LINKS": {
