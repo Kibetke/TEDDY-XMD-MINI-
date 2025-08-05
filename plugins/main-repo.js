@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/trendex2030/TREND-X';
+    const githubRepoURL = 'https://github.com/Teddytech1/TEDDY-XMD';
 
     try {
         // Extract username and repo name from the URL
@@ -27,19 +27,19 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*BOT NAME:* *${repoData.name}*\n\n*OWNER NAME:* *${repoData.owner.login}*\n\n*STARS:* *${repoData.stargazers_count}*\n\n*FORKS:* *${repoData.forks_count}*\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || 'No description'}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© Powered By TRENDEX KING 🖤*`;
+        const formattedInfo = `*BOT NAME:* *${repoData.name}*\n\n*OWNER NAME:* *${repoData.owner.login}*\n\n*STARS:* *${repoData.stargazers_count}*\n\n*FORKS:* *${repoData.forks_count}*\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || 'No description'}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© Powered By TEDDY-TECH 🖤*`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/adymbp.jpg` },
+            image: { url: `https://files.catbox.moe/yx9w43.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363401765045963@newsletter',
-                    newsletterName: 'TREND-X',
+                    newsletterJid: '120363421104812135@newsletter',
+                    newsletterName: 'TEDDY XMD',
                     serverMessageId: 143
                 }
             }
@@ -55,8 +55,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '.120363401765045963@newsletter',
-                    newsletterName: 'TREND-X',
+                    newsletterJid: '.120363421104812135@newsletter',
+                    newsletterName: 'TEDDY XMD',
                     serverMessageId: 143
                 }
             }
