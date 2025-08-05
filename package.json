@@ -1,12 +1,12 @@
 {
-  "name": "TREND-X",
+  "name": "TEDDY-XMD",
   "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By trendex",
+  "description": "A WhatsApp Bot Created By Teddy",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name TREND-X",
-    "stop": "pm2 stop TREND-X",
-    "restart": "pm2 restart TREND-X"
+    "start": "pm2 start index.js --deep-monitoring --attach --name TEDDY-XMD",
+    "stop": "pm2 stop TEDDY-XMD",
+    "restart": "pm2 restart TEDDY-XMD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
