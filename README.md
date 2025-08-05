@@ -39,7 +39,7 @@
    
   1..DEPLOY ON HEROKU ⤵️
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Tedddytech12030%2TEDDY-XMD) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Teddytech1/TEDDY-XMD/tree/main) 
    
    
   2..DEPLOY ON RENDER ⤵️
