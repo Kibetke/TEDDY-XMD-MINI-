@@ -99,7 +99,7 @@ jobs:
 ### Thank You Dear
 
 > DEVELOPER OF TEDDY XMD 
-- [TRENDEX ](https://github.com/Teddytech1)
+- [TEDDY 🧸](https://github.com/Teddytech1)
 - Creater and Owner Of TEDDY XMD
 ---
 <a><img src='https://i.imgur.com/LyHic3i.gif'/># TEDDY XMD 
