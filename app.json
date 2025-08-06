@@ -1,32 +1,28 @@
-
-
 {
-  "name": "TEDDY-XMD",
+  "name": "CRISS-AI-LITE",
   "description": "Javascript WhatsApp bot made by ᴄʀɪss ᴠᴇᴠᴏ",
-  "logo": "https://files.catbox.moe/yx9w43.jpg",
-  "keywords": ["TEDDY-XMD"],
+  "logo": "https://files.catbox.moe/egligh.jpg",
+  "keywords": ["CRISS-AI","LITE"],
   "success_url": "/",
 
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "Put the session-id here.. Must Start with 'CRISS-AI-LITE~'",
       "required": true,
       "value": ""
-   }, 
-
-
+    },
+   
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
       "required": false,
       "value": "true"
-    }, 
-
+     },
+   
     "AUTO_STATUS_REACT": {
       "description": "make it true for automatic status reaction or like.",
       "required": false,
       "value": "true"
-      
     }
 
 },
