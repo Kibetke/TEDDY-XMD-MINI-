@@ -1,5 +1,5 @@
 {
-  "name": "NOVA-XMD",
+  "name": "TEDDY-XMD",
   "description": "Javascript WhatsApp bot made by novaxmd",
   "logo": "https://files.catbox.moe/jsqqne.jpg",
   "keywords": ["NOVA-XMD"],
@@ -14,7 +14,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "NOVA-XMD"
+      "value": "TEDDY-XMD"
     },
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
@@ -69,17 +69,17 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳"
+      "value": "Teddy 🧸"
     },
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "255767862457"
+      "value": "254799963583"
     },
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "NOVA-XMD"
+      "value": "TEDDY-XMD"
     },
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
@@ -104,12 +104,12 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/jsqqne.jpg"
+      "value": "https://files.catbox.moe/a0mj3n.jpg"
     },
     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙽𝙾𝚅𝙰-𝚇𝙼𝙳*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚃𝙴𝙳𝙳𝚈-𝚇𝙼𝙳*"
     },
     "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
