@@ -42,8 +42,8 @@ async (conn, mek, m, {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363382023564830@newsletter",
-          newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
+          newsletterJid: "120363421104812135@newsletter",
+          newsletterName: "TEDDY-𝚇𝙼𝙳",
           serverMessageId: 13
         }
       }
@@ -97,7 +97,7 @@ async (conn, mek, m, {
         case 'extendedTextMessage':
         default:
           return await conn.sendMessage(from, {
-            text: `╭───⧈ *HIDETAG MESSAGE* ⧈\n│\n│ ${m.quoted.text || '📨 Message'}\n│\n╰──⧈ 𝗡𝗢𝗩𝗔 𝗫𝗠𝗗`,
+            text: `╭───⧈ *HIDETAG MESSAGE* ⧈\n│\n│ ${m.quoted.text || '📨 Message'}\n│\n╰──⧈ 𝗧𝗘𝗗𝗗𝗬 𝗫𝗠𝗗`,
             ...mentionAll
           }, { quoted: quotedContact });
       }
@@ -105,7 +105,7 @@ async (conn, mek, m, {
 
     if (q) {
       return await conn.sendMessage(from, {
-        text: `╭───⧈ *HIDETAG MESSAGE* ⧈\n│\n│ ${q}\n│\n╰──⧈ 𝗡𝗢𝗩𝗔 𝗫𝗠𝗗`,
+        text: `╭───⧈ *HIDETAG MESSAGE* ⧈\n│\n│ ${q}\n│\n╰──⧈ 𝗧𝗘𝗗𝗗𝗬 𝗫𝗠𝗗`,
         ...mentionAll
       }, { quoted: quotedContact });
     }

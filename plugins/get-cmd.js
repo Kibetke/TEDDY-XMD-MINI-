@@ -39,7 +39,7 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-Powered By *𝙽𝙾𝚅𝙰-𝚇𝙼𝙳🤙*`;
+Powered By *TEDDY-XMD🤙*`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
@@ -50,8 +50,8 @@ Powered By *𝙽𝙾𝚅𝙰-𝚇𝙼𝙳🤙*`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363382023564830@newsletter',
-                    newsletterName: '𝙱.𝙼.𝙱-𝚃𝙴𝙲𝙷',
+                    newsletterJid: '120363421104812135@newsletter',
+                    newsletterName: 'TEDDY-𝚃𝙴𝙲𝙷',
                     serverMessageId: 143
                 }
             }

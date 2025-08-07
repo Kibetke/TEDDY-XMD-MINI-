@@ -44,7 +44,7 @@ cmd({
     const filenameHeader = headCheck.headers.get("content-disposition");
     const fileName = filenameHeader ? filenameHeader.match(/filename="?(.+?)"?$/)?.[1] : `${repo}.zip`;
 
-    await reply(`╭───〔 *📦 NOVA XMD GIT CLONE* 〕───⬣
+    await reply(`╭───〔 *📦 TEDDY-XMD GIT CLONE* 〕───⬣
 │
 │ 📁 *User:* ${user}
 │ 📦 *Repo:* ${repo}
@@ -61,8 +61,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363382023564830@newsletter",
-          newsletterName: "𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 GITHUB CLONE 🎃",
+          newsletterJid: "120363421104812135@newsletter",
+          newsletterName: "TEDDY-XMD GITHUB CLONE 🎃",
           serverMessageId: 143
         }
       }

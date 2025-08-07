@@ -47,7 +47,7 @@ async (conn, mek, m, { from }) => {
 📞 Number : ${ownerNumber}
 ⚙️ Role   : Developer & Founder
 📦 Version: 2.0.0 Beta
-⚡ Powered by 𝙽𝙾𝚅𝙰-𝚇𝙼𝙳 ⚡`;
+⚡ Powered by Teddy xmd⚡`;
 
         await conn.sendMessage(from, {
             text: caption,
@@ -56,8 +56,8 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363382023564830@newsletter',
-                    newsletterName: '𝙽𝙾𝚅𝙰-𝚇𝙼𝙳',
+                    newsletterJid: '120363421104812135@newsletter',
+                    newsletterName: 'TEDDY-𝚇𝙼𝙳',
                     serverMessageId: 143
                 }
             }

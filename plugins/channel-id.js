@@ -45,8 +45,8 @@ cmd({
           isForwarded: true,
           mentionedJid: [m.sender],
           forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363382023564830@newsletter",
-            newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
+            newsletterJid: "120363421104812135@newsletter",
+            newsletterName: "TEDDY-XMD",
             serverMessageId: 1
           }
         }
@@ -59,8 +59,8 @@ cmd({
           isForwarded: true,
           mentionedJid: [m.sender],
           forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363382023564830@newsletter",
-            newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
+            newsletterJid: "120363421104812135@newsletter",
+            newsletterName: "TEDDY-XMD",
             serverMessageId: 1
           }
         }

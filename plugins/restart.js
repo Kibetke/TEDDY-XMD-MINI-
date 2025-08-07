@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 cmd({  
     pattern: "restart",  
-    desc: "Restart NOVA-XMD",  
+    desc: "Restart TEDDY-XMD",  
     category: "owner",  
     filename: __filename  
 },  

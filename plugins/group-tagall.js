@@ -61,7 +61,7 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
       teks += `${randomEmoji} @${mem.id.split('@')[0]}\n`;
     }
 
-    teks += `\n╰─⧈ 𝗡𝗢𝗩𝗔 ┃ 𝗫𝗠𝗗 ⧈─⬣`;
+    teks += `\n╰─⧈ 𝗧𝗘𝗗𝗗𝗬 ┃ 𝗫𝗠𝗗 ⧈─⬣`;
 
     await conn.sendMessage(from, {
       text: teks,
@@ -70,8 +70,8 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363382023564830@newsletter",
-          newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
+          newsletterJid: "120363421104812135@newsletter",
+          newsletterName: "TEDDY-XMD",
           serverMessageId: 1
         }
       }

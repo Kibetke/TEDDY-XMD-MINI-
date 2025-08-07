@@ -42,13 +42,13 @@ cmd({
     for (const imgUrl of randomResults) {
       await conn.sendMessage(from, {
         image: { url: imgUrl },
-        caption: `╭───〔 *Image Result* 〕───⬣\n📷 Query: *${query}*\n🔗 Source: Google\n╰──✪ 𝙽𝙾𝚅𝙰 ┃ 𝚇𝙼𝙳 ✪──`,
+        caption: `╭───〔 *Image Result* 〕───⬣\n📷 Query: *${query}*\n🔗 Source: Google\n╰──✪ 𝚃𝙴𝙳𝙳𝚈 ┃ 𝚇𝙼𝙳 ✪──`,
         contextInfo: {
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363382023564830@newsletter",
-            newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
+            newsletterJid: "120363421104812135@newsletter",
+            newsletterName: "𝚃𝙴𝙳𝙳𝚈-𝚇𝙼𝙳",
             serverMessageId: 10
           }
         }

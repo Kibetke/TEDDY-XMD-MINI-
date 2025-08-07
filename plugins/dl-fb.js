@@ -24,7 +24,7 @@ cmd({
       return reply("⚠️ *Failed to fetch Facebook video. Please try another link.*");
     }
 
-    const caption = `📹 *Facebook Video*\n🎬 *Title:* ${data.title || 'No Title'}\n\n🔗 *Powered by NOVA-XMD ✅*`;
+    const caption = `📹 *Facebook Video*\n🎬 *Title:* ${data.title || 'No Title'}\n\n🔗 *Powered by TEDDY-XMD ✅*`;
 
     await conn.sendMessage(from, {
       video: { url: data.videoUrl },
@@ -35,8 +35,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363382023564830@newsletter",
-          newsletterName: "𝗡𝗢𝗩𝗔-𝗫𝗠𝗗",
+          newsletterJid: "120363421104812135@newsletter",
+          newsletterName: "TEDDY-XMD",
           serverMessageId: 144
         }
       }

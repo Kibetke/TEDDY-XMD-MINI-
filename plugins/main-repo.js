@@ -28,7 +28,7 @@ cmd({
   filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-  const githubRepoURL = 'https://github.com/novaxmd/NOVA-XMD';
+  const githubRepoURL = 'https://github.com/Teddytech1/TEDDY-XMD';
 
   try {
     const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -108,8 +108,8 @@ ${config.DESCRIPTION}`;
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363382023564830@newsletter',
-          newsletterName: config.OWNER_NAME || '𝗡𝗢𝗩𝗔-𝗫𝗠𝗗',
+          newsletterJid: '120363421104812135@newsletter',
+          newsletterName: config.OWNER_NAME || 'TEDDY-𝗫𝗠𝗗',
           serverMessageId: 143
         }
       }

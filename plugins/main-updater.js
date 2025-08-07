@@ -16,24 +16,24 @@ cmd({
     if (!isOwner) return reply("This command is only for the bot owner.");
 
     try {
-        await reply("🔍 Checking for 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 updates...");
+        await reply("🔍 Checking for Teddy Xmd updates...");
 
         // Fetch the latest commit hash from GitHub
-        const { data: commitData } = await axios.get("https://github.com/novaxmd/NOVA-XMD/commits/main");
+        const { data: commitData } = await axios.get("https://github.com/Teddytech1/TEDDY-XMD/commits/main");
         const latestCommitHash = commitData.sha;
 
         // Get the stored commit hash from the database
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your NOVA-XMD bot is already up-to-date!");
+            return reply("✅ Your TEDDY-XMD bot is already up-to-date!");
         }
 
-        await reply("🚀 Updating NOVA-XMD Bot...");
+        await reply("🚀 Updating TEDDY-XMD Bot...");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
-        const { data: zipData } = await axios.get("https://github.com/novaxmd/NOVA-XMD/archive/main.zip", { responseType: "arraybuffer" });
+        const { data: zipData } = await axios.get("https://github.com/Teddytech1/TEDDY-XMD/archive/main.zip", { responseType: "arraybuffer" });
         fs.writeFileSync(zipPath, zipData);
 
         // Extract ZIP file
@@ -44,7 +44,7 @@ cmd({
 
         // Copy updated files, preserving config.js and app.json
         await reply("🔄 Replacing files...");
-        const sourcePath = path.join(extractPath, "NOVA-XMD-main");
+        const sourcePath = path.join(extractPath, "TEDDY-XMD-main");
         const destinationPath = path.join(__dirname, '..');
         copyFolderSync(sourcePath, destinationPath);
 

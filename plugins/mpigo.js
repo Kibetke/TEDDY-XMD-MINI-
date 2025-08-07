@@ -73,8 +73,8 @@ To turn Off:
                 forwardingScore: 999, // You can adjust or remove this
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363382023564830@newsletter', // Ensure this JID is valid
-                    newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
+                    newsletterJid: '120363421104812135@newsletter', // Ensure this JID is valid
+                    newsletterName: "TEDDY-𝚇𝙼𝙳",
                     serverMessageId: 143
                 }
             }

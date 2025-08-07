@@ -75,7 +75,7 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `Background removed\n\n> *this is 𝙽𝙾𝚅𝙰-𝚇𝙼𝙳 say it beiby🎭*`
+      caption: `Background removed\n\n> *this is Teddy-xmd say it beiby🎭*`
     });
 
   } catch (error) {
