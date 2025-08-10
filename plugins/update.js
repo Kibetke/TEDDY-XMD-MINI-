@@ -9,23 +9,23 @@ cmd({
   pattern: "update",
   alias: ["upgrade", "sync"],
   react: '🧠',
-  desc: "Update PK-XMD bot from GitHub.",
+  desc: "Update TEDDY-XMD bot from GitHub.",
   category: "system",
   filename: __filename
 }, async (conn, m, text, { reply, isOwner }) => {
   if (!isOwner) return reply("❌ Only owner can use this command!");
 
   try {
-    await reply("🔎 Checking for PK-XMD updates...");
+    await reply("🔎 Checking for TEDDY-XMD updates...");
 
-    const repo = "Pkphotographer1911/PK-XMD";
+    const repo = "Teddytech1/TEDDY-XMD";
 
     const latestCommit = await axios.get(`https://api.github.com/repos/${repo}/commits/main`);
     const latestHash = latestCommit.data.sha;
     const currentHash = await getCommitHash();
 
     if (latestHash === currentHash) {
-      return reply("✅ You are already using the latest version of PK-XMD!");
+      return reply("✅ You are already using the latest version of TEDDY-XMD!");
     }
 
     await reply("📥 Downloading latest version...");
@@ -41,7 +41,7 @@ cmd({
 
     await reply("🧩 Extracted. Replacing old files...");
 
-    const sourcePath = path.join(extractPath, "PK-XMD-main");
+    const sourcePath = path.join(extractPath, "TEDDY-XMD-main");
     const destinationPath = path.join(__dirname, "..");
 
     copyFolderSync(sourcePath, destinationPath);

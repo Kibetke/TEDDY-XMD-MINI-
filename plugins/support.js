@@ -4,7 +4,7 @@ const moment = require('moment-timezone');
 cmd({
   pattern: "support",
   alias: ["supportgroup", "help", "channel"],
-  desc: "Get PK-XMD support, channel & developer contact",
+  desc: "Get TEDDY-XMD support, channel & developer contact",
   category: "system",
   filename: __filename,
 }, async (Void, m, text) => {
@@ -21,8 +21,8 @@ cmd({
     },
     message: {
       contactMessage: {
-        displayName: "PKDRILLER | PK-XMD",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PKDRILLER | PK-XMD\nORG:PKDRILLER;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+        displayName: "TEDDY | XMD",
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:TEDDY | XMD\nORG:TEDDY;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
         jpegThumbnail: Buffer.alloc(0)
       }
     }
@@ -30,10 +30,10 @@ cmd({
 
   const contextInfo = {
     externalAdReply: {
-      title: "📞 PK-XMD • Support & Channel",
+      title: "📞 TEDDY-XMD • Support & Channel",
       body: `🕒 ${jtime} | 📅 ${jdate}`,
-      thumbnailUrl: 'https://files.catbox.moe/cn1fia.jpg',
-      sourceUrl: 'https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x',
+      thumbnailUrl: 'https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n',
+      sourceUrl: 'https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n',
       mediaType: 1,
       renderLargerThumbnail: true,
       showAdAttribution: true
@@ -41,12 +41,12 @@ cmd({
     forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: "120363288304618280@newsletter",
-      newsletterName: "PK-XMD Official"
+      newsletterJid: "120363421104812135@newsletter",
+      newsletterName: "TEDDY-XMD Official"
     }
   };
 
-  const supportText = `*🛠️ PK-XMD Support Center*\n\n╭─❍ *Support Links*\n│👥 Group: https://chat.whatsapp.com/CbY7YiuobJ1AlMJ8PviKpm?\n│📡 Channel: https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x\n│📞 Dev: wa.me/254794146821 (PKDRILLER)\n╰───────────────╮\n\n📌 Feel free to ask for help, request features or report bugs.\n\n⏰ *Time:* ${jtime}\n📅 *Date:* ${jdate}\n\n*Powered by Pkdriller*`;
+  const supportText = `*🛠️ TEDDY-XMD Support Center*\n\n╭─❍ *Support Links*\n│👥 Group: https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n?\n│📡 Channel: https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n\n│📞 Dev: wa.me/254799963583 (TEDDY)\n╰───────────────╮\n\n📌 Feel free to ask for help, request features or report bugs.\n\n⏰ *Time:* ${jtime}\n📅 *Date:* ${jdate}\n\n*Powered by Teddy-Tech*`;
 
   await Void.sendMessage(m.chat, {
     text: supportText,

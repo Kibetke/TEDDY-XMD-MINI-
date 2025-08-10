@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 cmd({  
     pattern: "restart",  
-    desc: "Restart PK-XMD",  
+    desc: "Restart TEDDY-XMD",  
     category: "owner",  
     filename: __filename  
 },  

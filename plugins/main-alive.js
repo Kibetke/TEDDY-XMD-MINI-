@@ -13,13 +13,13 @@ cmd({
   let up = runtime(process.uptime());
 
   let message = `
-╭────[ *⚙ PK-XMD IS ALIVE ⚙* ]────╮
+╭────[ *⚙ TEDDY-XMD IS ALIVE ⚙* ]────╮
 │
 ├ 🧿 *Time:* ${time}
 ├ 🗓 *Date:* ${date}
 ├ 💠 *Uptime:* ${up}
 │
-╰─⭓ *Powered by Pkdriller*
+╰─⭓ *Powered by Teddy-Tech*
 `.trim();
 
   let vcard = {
@@ -30,8 +30,8 @@ cmd({
     },
     message: {
       contactMessage: {
-        displayName: "PK-XMD",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PK-XMD\nORG:Verified Bot;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254700000000\nEND:VCARD`
+        displayName: "TEDDY-XMD",
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:TEDDY-XMD\nORG:Verified Bot;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254700000000\nEND:VCARD`
       }
     }
   };
@@ -40,8 +40,8 @@ cmd({
     quoted: vcard,
     contextInfo: {
       externalAdReply: {
-        title: "PK-XMD WhatsApp Bot",
-        body: "Alive & Running - Powered by Pkdriller",
+        title: "TEDDY-XMD WhatsApp Bot",
+        body: "Alive & Running - Powered by Teddy-tech",
         mediaType: 1,
         renderLargerThumbnail: false,
         showAdAttribution: false,
@@ -50,9 +50,9 @@ cmd({
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363288304618280@newsletter",
+        newsletterJid: "120363421104812135@newsletter",
         serverMessageId: "",
-        newsletterName: "PK-XMD Verified Bot"
+        newsletterName: "TEDDY-XMD Verified Bot"
       }
     }
   });

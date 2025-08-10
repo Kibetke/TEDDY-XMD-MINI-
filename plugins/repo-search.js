@@ -23,7 +23,7 @@ cmd({
     msg += `🍴 *Forks*: ${data.forks_count}\n`;
     msg += `👤 *Owner*: ${data.owner.login}\n`;
     msg += `🗓️ *Created*: ${new Date(data.created_at).toLocaleDateString()}\n\n`;
-    msg += `🔗 *Powered by Pkdriller*`;
+    msg += `🔗 *Powered by Teddy-Tech*`;
 
     const fakeContact = {
       key: {
@@ -45,15 +45,15 @@ cmd({
       isForwarded: true,
       externalAdReply: {
         title: "GitHub Repository",
-        body: "Search by PK-XMD",
-        thumbnailUrl: "https://files.catbox.moe/lvrpek.jpg",
+        body: "Search by TEDDY-XMD",
+        thumbnailUrl: "https://files.catbox.moe/a0mj3n.jpg",
         mediaType: 1,
         renderLargerThumbnail: true,
         showAdAttribution: true,
         sourceUrl: data.html_url
       },
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363288304618280@newsletter",
+        newsletterJid: "120363421104812135@newsletter",
         newsletterName: "GitHub Verified",
         serverMessageId: "",
       }

@@ -32,29 +32,29 @@ cmd({
     const time = moment().tz('Africa/Nairobi').format('HH:mm:ss');
     const date = moment().tz('Africa/Nairobi').format('dddd, MMMM Do YYYY');
 
-    const caption = `╭━━〔 *PK-XMD Command List* 〕━━⬣
+    const caption = `╭━━〔 *TEDDY-XMD Command List* 〕━━⬣
 ┃ 👑 *Total Commands:* ${totalCommands}
 ┃ 📅 *Date:* ${date}
 ┃ ⏰ *Time:* ${time}
 ╰━━━━━━━━━━━━━━━━━━━━⬣\n\n${commandList.join('\n\n')}`;
 
     await Void.sendMessage(m.chat, {
-      image: { url: "https://files.catbox.moe/fgiecg.jpg" },
+      image: { url: "120363421104812135@newsletter" },
       caption,
       contextInfo: {
         forwardingScore: 999,
         isForwarded: true,
         mentionedJid: [m.sender],
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "PK-XMD Official",
+          newsletterJid: "120363421104812135@newsletter",
+          newsletterName: "TEDDY-XMD Official",
           serverMessageId: 2
         },
         externalAdReply: {
-          title: "PK-XMD Plugin List",
-          body: `Powered by Pkdriller`,
+          title: "TEDDY-XMD Plugin List",
+          body: `Powered by Teddy-Tech`,
           mediaType: 1,
-          sourceUrl: "https://github.com/mejjar00254/PK-XMD",
+          sourceUrl: "https://github.com/Teddytech1/TEDDY-XMD",
           renderLargerThumbnail: false,
           showAdAttribution: true
         }
@@ -68,8 +68,8 @@ cmd({
         },
         message: {
           contactMessage: {
-            displayName: "PK-XMD | Powered by Pkdriller",
-            vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PK-XMD | Pkdriller\nORG:Pkdriller;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+            displayName: "TEDDY-XMD | Powered by Teddy-Tech ",
+            vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:TEDDY-XMD | TEDDY\nORG:Pkdriller;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
             jpegThumbnail: Buffer.alloc(0)
           }
         }
